@@ -6,7 +6,7 @@
 /*   By: pjulca <pjulca@student.42barcelon>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 13:18:06 by pjulca            #+#    #+#             */
-/*   Updated: 2023/08/29 20:22:03 by pjulca           ###   ########.fr       */
+/*   Updated: 2023/12/02 19:39:21 by pjulca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ void	*ft_memset(void *b, int c, size_t len);
 
 //				STR	
 char	**ft_split(char const *s, char c);
+char    **ft_global_split(char *str);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s1);
 char	*ft_striteri(char *s, void (*f)(unsigned int, char*));
